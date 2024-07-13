@@ -6,7 +6,10 @@
 
 input_string = 'apples'
 len(input_string)
-
+if input_string < 5 characters
+print('string is too short')
+else:
+    print('String is too long')
 
 # [JONATHAN] Excellent! Now, write an if statement that says:
 if (string is less than 5 characters):
