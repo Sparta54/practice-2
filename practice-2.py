@@ -1,5 +1,5 @@
 input_string = apples
-len(input_string))
+len(input_string)
 
 # Write an if-else statement that determines if a string (like "apple") is less than 5 characters long. 
 # Use the function len() to determine the length of the string. 
