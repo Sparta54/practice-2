@@ -9,8 +9,8 @@
 input_string = 'apples'
 len(input_string)
 
-if input_string < 5 characters   # [JONATHAN] Add len() around the input_string. Remove the word 'characters'. Add a colon (:) at the end of this line.
-print('string is too short')  # [JONATHAN] This should be indented 
+if len(input_string) < 5:   # [JONATHAN] Add len() around the input_string. Remove the word 'characters'. Add a colon (:) at the end of this line.
+    print('string is too short')  # [JONATHAN] This should be indented 
 else:
     print('String is too long')
 
