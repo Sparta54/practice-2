@@ -7,4 +7,5 @@
 
 
 
-
+if (string is less than 5 characters):
+  # Do something
