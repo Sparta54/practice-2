@@ -35,7 +35,7 @@ else:
 while (expression evaluates to True):
 	# Do things
 
-# This example loops forever because the expression never encounters a situation where 
+# This example loops forever because the expression never encounters a situation where it evaluates to False
 while True:
 	print("Hello World!")
 
