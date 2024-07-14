@@ -46,8 +46,4 @@ while i < 100:
 	i = i + 1  # i += 1
 
 
-# FYI Another type of while loop is the do-while verision
-do (something) while (expression evaluates to True)
 
-
-	
