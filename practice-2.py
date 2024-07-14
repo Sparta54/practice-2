@@ -28,3 +28,26 @@ else:
 	# Do things if expression evaluates to False
 
 
+################################################################################
+# While Loops
+
+# A while loop executes the code inside the body of the while loop for as long as the expression evaluates to True
+while (expression evaluates to True):
+	# Do things
+
+# This example loops forever because the expression never encounters a situation where 
+while True:
+	print("Hello World!")
+
+# This example provides an iteration counter
+i = 0;
+while i < 100:
+	print(i)
+	i = i + 1  # i += 1
+
+
+# FYI Another type of while loop is the do-while verision
+do (something) while (expression evaluates to True)
+
+
+	
