@@ -29,15 +29,20 @@ else:
 
 
 ################################################################################
-# While Loops
+# While Loop Template
 
 # A while loop executes the code inside the body of the while loop for as long as the expression evaluates to True
 while (expression evaluates to True):
 	# Do things
 
+
+################################################################################
+# While Loop Examples
+
 # This example loops forever because the expression never encounters a situation where it evaluates to False
 while True:
 	print("Hello World!")
+
 
 # This example provides an iteration counter
 i = 0;
@@ -46,5 +51,11 @@ while i < 100:
 	i = i + 1  # i += 1
 
 
-while True:
-	print(
+# Loop through list of subjects
+i = 0
+subjects = ["geology", "algebra", "history", "civics"]
+length_subjects = len(subjects)
+
+while i < length_subjects:
+	print(subjects[i])
+
