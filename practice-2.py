@@ -59,3 +59,37 @@ length_subjects = len(subjects)
 while i < length_subjects:
 	print(subjects[i])
 
+
+
+
+
+
+# While Loop
+i = 0
+planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+while i < 5:
+    print(planets[i])
+    i += 1
+
+
+
+
+
+
+# Import Library
+import datetime
+import time
+
+# Define Variable
+i = 0
+
+# While Loop
+while i < 10:
+    print(f'Loop Number: {i}') # This is known as an f-string
+    print(datetime.datetime.now()) # Show datetime in 'YYYY-MM-DD HH:MM:SS.000000' format
+    time.sleep(2.0) # Delay for 2 seconds
+    i += 1 # Increment (add one)
+
+
+
+
